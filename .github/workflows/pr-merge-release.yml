@@ -19,7 +19,7 @@ jobs:
     name: Version
     # Only run if tests pass 
     needs: [ call-get-label, call-e2e-tests ]
-    uses: digi-serve/.github/.github/workflows/bump-version.yml@master
+    uses: ./.github/workflows/bump-version.yml
     with:
       ref: ${{ github.ref }}
       type: ${{ needs.call-get-label.outputs.label }}
@@ -36,7 +36,6 @@ jobs:
       DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
       DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
     with:
-      base_tag: master
       tags: master,develop,${{ needs.call-bump-version.outputs.new_version }}
   dispatch-runtime-update:
     name: Dipsatch AB Runtime Update

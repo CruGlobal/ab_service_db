@@ -4,10 +4,6 @@ on:
    pull_request:
       branches: [master]
 
-permissions:
-   contents: write
-   pull-requests: write
-
 jobs:
    call-e2e-tests:
       name: E2E Tests
