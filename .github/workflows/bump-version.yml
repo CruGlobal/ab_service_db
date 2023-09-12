@@ -39,7 +39,7 @@ jobs:
           CURRENT=$(cat version)
           NEW=$(semver -i $TYPE $CURRENT)
           echo $NEW > version
-          echo "new_version=$NEW" >> $GITHUB_OUTPUTS
+          echo "new_version=$NEW" >> $GITHUB_OUTPUT
 
       - name: Commit Change
         id: commit_version
