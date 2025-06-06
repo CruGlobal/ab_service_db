@@ -1,6 +1,6 @@
-[![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/digi-serve/ab-service-db/pr-merge-release.yml?logo=github&label=Build%20%26%20Test)](https://github.com/digi-serve/ab-service-db/actions/workflows/pr-merge-release.yml)
-[![GitHub tag (with filter)](https://img.shields.io/github/v/tag/digi-serve/ab-service-db?logo=github&label=Latest%20Version)
-](https://github.com/digi-serve/ab-service-db/releases)
+[![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/CruGlobal/ab-service-db/pr-merge-release.yml?logo=github&label=Build%20%26%20Test)](https://github.com/CruGlobal/ab-service-db/actions/workflows/pr-merge-release.yml)
+[![GitHub tag (with filter)](https://img.shields.io/github/v/tag/CruGlobal/ab-service-db?logo=github&label=Latest%20Version)
+](https://github.com/CruGlobal/ab-service-db/releases)
 [![Docker Pulls](https://img.shields.io/docker/pulls/digiserve/ab-db?logo=docker&logoColor=white&label=Docker%20Pulls)](https://hub.docker.com/r/digiserve/ab-db)
 [![Image Size](https://img.shields.io/docker/image-size/digiserve/ab-db/master?logo=docker&logoColor=white&label=Image%20Size)](https://hub.docker.com/r/digiserve/ab-db/tags)
 
@@ -8,7 +8,7 @@
 An AppBuilder DataBase service. Uses MariaDB.
 
 ## Install
-See [ab_cli](https://github.com/digi-serve/ab-cli)
+See [ab_cli](https://github.com/CruGlobal/ab-cli)
 
 ## Pull Requests
 Pull Requests should be tagged with a label `major`, `minor` or `patch`. Use `major` for breaking changes, `minor` for new features, or `patch` for bug fixes. To merge without creating a release a `no_release` tag can be added instead.

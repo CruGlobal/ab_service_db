@@ -9,7 +9,7 @@ on:
         required: true
 jobs:
   call-docker-build:
-    uses: digi-serve/.github/.github/workflows/docker-build.yml@master
+    uses: CruGlobal/.github/.github/workflows/docker-build.yml@master
     with:
       tags: ${{ inputs.tags }}
     secrets: 
